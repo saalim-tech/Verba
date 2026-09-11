@@ -2,34 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="Verba — Understand. Think. Speak. Express."
-    >
-
-    <meta
-        name="theme-color"
-        content="#5B5BD6"
+        content="Verba helps you build real English communication skills."
     >
 
     <title>Verba — Understand. Think. Speak. Express.</title>
 
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <main id="app"></main>
 
-    <script type="module" src="js/app.js"></script>
+    <header class="site-header">
+        <a href="index.html" class="logo" aria-label="Verba home">
+            Verba
+        </a>
+
+        <button class="menu-button" type="button" aria-label="Open menu">
+            ☰
+        </button>
+    </header>
+
+    <main id="app">
+
+        <section class="hero">
+            <p class="eyebrow">ENGLISH COMMUNICATION</p>
+
+            <h1>
+                Understand.<br>
+                Think. Speak.<br>
+                Express.
+            </h1>
+
+            <p class="hero-text">
+                Build the confidence to understand English,
+                express your thoughts, and communicate clearly.
+            </p>
+
+            <a href="pages/learn.html" class="button button-primary">
+                Start Learning
+            </a>
+        </section>
+
+        <section class="skills-section">
+            <div class="section-heading">
+                <p class="eyebrow">YOUR SKILLS</p>
+
+                <h2>
+                    English is more than grammar.
+                </h2>
+
+                <p>
+                    Build the skills you actually need
+                    to communicate.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>Listening</h3>
+                    <p>
+                        Understand spoken English
+                        in real situations.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>Speaking</h3>
+                    <p>
+                        Turn your thoughts into
+                        natural responses.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>Pronunciation</h3>
+                    <p>
+                        Understand sounds and
+                        speak more clearly.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">04</span>
+                    <h3>Expression</h3>
+                    <p>
+                        Explain your ideas with
+                        clarity and confidence.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>Verba</p>
+        <p>Understand. Think. Speak. Express.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
